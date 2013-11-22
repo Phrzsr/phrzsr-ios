@@ -7,7 +7,7 @@
 //
 
 #import "AWViewController.h"
-#import "AWPhrzsr.h"
+#import "Phrzsr.h"
 
 
 @interface AWViewController ()
@@ -23,7 +23,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 
-	self.phrzLabel.text = [AWPhrzsr phrz];
+	self.phrzLabel.text = [Phrzsr phrz];
 }
 
 - (void)didReceiveMemoryWarning

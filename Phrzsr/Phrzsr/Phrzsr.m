@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Phrzsr. All rights reserved.
 //
 
-#import "AWPhrzsr.h"
+#import "Phrzsr.h"
 
-@implementation AWPhrzsr
+@implementation Phrzsr
 
 + (NSString *)phrz {
 	return [self phrzForCategory:nil];

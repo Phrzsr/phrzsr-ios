@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AWPhrzsr : NSObject
+@interface Phrzsr : NSObject
 
 + (NSString *)phrz;
 

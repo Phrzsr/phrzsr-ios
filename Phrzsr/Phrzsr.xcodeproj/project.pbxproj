@@ -22,8 +22,8 @@
 		B56BB102183EF59700A4D7B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56BB0E1183EF59700A4D7B6 /* UIKit.framework */; };
 		B56BB10A183EF59700A4D7B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B56BB108183EF59700A4D7B6 /* InfoPlist.strings */; };
 		B56BB10C183EF59700A4D7B6 /* PhrzsrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B56BB10B183EF59700A4D7B6 /* PhrzsrTests.m */; };
-		B56BB119183EF60700A4D7B6 /* AWPhrzsr.m in Sources */ = {isa = PBXBuildFile; fileRef = B56BB118183EF60700A4D7B6 /* AWPhrzsr.m */; };
-		B56BB11A183EF60700A4D7B6 /* AWPhrzsr.m in Sources */ = {isa = PBXBuildFile; fileRef = B56BB118183EF60700A4D7B6 /* AWPhrzsr.m */; };
+		B56BB119183EF60700A4D7B6 /* Phrzsr.m in Sources */ = {isa = PBXBuildFile; fileRef = B56BB118183EF60700A4D7B6 /* Phrzsr.m */; };
+		B56BB11A183EF60700A4D7B6 /* Phrzsr.m in Sources */ = {isa = PBXBuildFile; fileRef = B56BB118183EF60700A4D7B6 /* Phrzsr.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 		B56BB107183EF59700A4D7B6 /* PhrzsrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhrzsrTests-Info.plist"; sourceTree = "<group>"; };
 		B56BB109183EF59700A4D7B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B56BB10B183EF59700A4D7B6 /* PhrzsrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhrzsrTests.m; sourceTree = "<group>"; };
-		B56BB117183EF60700A4D7B6 /* AWPhrzsr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWPhrzsr.h; sourceTree = "<group>"; };
-		B56BB118183EF60700A4D7B6 /* AWPhrzsr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWPhrzsr.m; sourceTree = "<group>"; };
+		B56BB117183EF60700A4D7B6 /* Phrzsr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phrzsr.h; sourceTree = "<group>"; };
+		B56BB118183EF60700A4D7B6 /* Phrzsr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Phrzsr.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,8 +171,8 @@
 		B56BB116183EF5BA00A4D7B6 /* Phrzsr */ = {
 			isa = PBXGroup;
 			children = (
-				B56BB117183EF60700A4D7B6 /* AWPhrzsr.h */,
-				B56BB118183EF60700A4D7B6 /* AWPhrzsr.m */,
+				B56BB117183EF60700A4D7B6 /* Phrzsr.h */,
+				B56BB118183EF60700A4D7B6 /* Phrzsr.m */,
 			);
 			name = Phrzsr;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 			files = (
 				B56BB0EE183EF59700A4D7B6 /* AWAppDelegate.m in Sources */,
 				B56BB0F7183EF59700A4D7B6 /* AWViewController.m in Sources */,
-				B56BB119183EF60700A4D7B6 /* AWPhrzsr.m in Sources */,
+				B56BB119183EF60700A4D7B6 /* Phrzsr.m in Sources */,
 				B56BB0EA183EF59700A4D7B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B56BB11A183EF60700A4D7B6 /* AWPhrzsr.m in Sources */,
+				B56BB11A183EF60700A4D7B6 /* Phrzsr.m in Sources */,
 				B56BB10C183EF59700A4D7B6 /* PhrzsrTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
