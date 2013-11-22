@@ -13,9 +13,12 @@
 + (NSString *)phrz;
 
 + (NSString *)phrzForCategory:(NSString *)categoryName;
-+ (NSString *)phrzForCategory:(NSString *)categoryName withSubstitutionArguments:(NSString *)firstArgument,... NS_REQUIRES_NIL_TERMINATION;
++ (NSString *)phrzForCategory:(NSString *)categoryName withSubstitutionArguments:(NSArray *)arguments;
 
 + (NSString *)phrzForURL:(NSURL *)aURL;
-+ (NSString *)phrzForURL:(NSURL *)aURL withSubstitutionArguments:(NSString *)firstArgument,... NS_REQUIRES_NIL_TERMINATION;
++ (NSString *)phrzForURL:(NSURL *)aURL withSubstitutionArguments:(NSArray *)arguments;
+
++ (NSString *)phrzForPath:(NSString *)filePath;
++ (NSString *)phrzForPath:(NSString *)filePath withSubstitutionArguments:(NSArray *)arguments;
 
 @end

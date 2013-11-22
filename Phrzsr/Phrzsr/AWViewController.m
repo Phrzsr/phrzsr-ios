@@ -7,8 +7,12 @@
 //
 
 #import "AWViewController.h"
+#import "AWPhrzsr.h"
+
 
 @interface AWViewController ()
+
+@property (weak, nonatomic) IBOutlet UILabel *phrzLabel;
 
 @end
 
@@ -18,6 +22,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+	self.phrzLabel.text = [AWPhrzsr phrz];
 }
 
 - (void)didReceiveMemoryWarning
